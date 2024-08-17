@@ -62,7 +62,7 @@ const Header = (props) => {
             onChange={(e) => setEditInput(e.target.value)}
             type="text"
             value={editInput}
-            className="ps-5 inputSet border border-2 border-dark fw-bold"
+            className="ps-2 inputSet border border-2 border-dark fw-bold"
           />
           <i
             onClick={editHandler}
